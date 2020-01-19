@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+.rojo {
+  background-color: crimson;
+  transform: scale(1.5);
+  transition: all 0.2s ease-in-out;
+}
+.azul {
+  background-color: blue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
